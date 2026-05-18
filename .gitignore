@@ -12,3 +12,6 @@ desktop.ini
 
 # Temporary
 assets/og/
+.playwright-mcp/
+check-*.png
+view-*.png
