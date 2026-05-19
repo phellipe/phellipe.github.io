@@ -29,6 +29,16 @@
       el.setAttribute('aria-label', isEn ? el.dataset.enAria : el.dataset.ptAria);
     });
 
+    // [data-en-alt] / [data-en-src] / [data-en-href] — swap attribute by language
+    const swapAttr = (attr) => {
+      const cap = attr.charAt(0).toUpperCase() + attr.slice(1);
+      document.querySelectorAll('[data-en-' + attr + ']').forEach((el) => {
+        if (el.dataset['pt' + cap] === undefined) el.dataset['pt' + cap] = el.getAttribute(attr) || '';
+        el.setAttribute(attr, isEn ? el.dataset['en' + cap] : el.dataset['pt' + cap]);
+      });
+    };
+    ['alt', 'src', 'href'].forEach(swapAttr);
+
     const toggle = document.querySelector('[data-lang-toggle]');
     if (toggle) {
       toggle.textContent = isEn ? 'PT' : 'EN';

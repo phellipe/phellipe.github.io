@@ -760,6 +760,65 @@ main { display: block; }
   letter-spacing: 0.04em;
 }
 
+/* ---------- vCard (QR de contato) ---------- */
+.vcard {
+  position: relative;
+  max-width: clamp(15rem, 60vw, 19rem);
+  margin: 2.75rem auto;
+  padding: clamp(1.4rem, 4vw, 1.8rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.05rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.vcard::before,
+.vcard::after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border: 1.5px solid var(--accent);
+}
+.vcard::before { top: -1px; left: -1px; border-right: 0; border-bottom: 0; }
+.vcard::after { bottom: -1px; right: -1px; border-left: 0; border-top: 0; }
+
+.vcard-code {
+  position: relative;
+  overflow: hidden;
+  padding: 0.7rem;
+  background: #ffffff;
+  border-radius: var(--radius-sm);
+}
+.vcard-code img {
+  display: block;
+  width: 180px;
+  height: 180px;
+}
+
+.vcard-scan {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 3px;
+  opacity: 0;
+  background: linear-gradient(180deg, transparent, var(--accent), transparent);
+  box-shadow: 0 0 8px 1px var(--accent-glow);
+  pointer-events: none;
+}
+.vcard.is-visible .vcard-scan {
+  animation: vcard-scan 0.9s var(--ease) 0.35s 1;
+}
+
+.vcard-caption {
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--text-faint);
+}
+
 /* ---------- Footer ---------- */
 .site-footer {
   border-top: 1px solid var(--line);
@@ -810,6 +869,12 @@ html.js [data-reveal].is-visible { opacity: 1; transform: none; }
 @keyframes rise {
   from { opacity: 0; transform: translateY(26px); }
   to { opacity: 1; transform: none; }
+}
+@keyframes vcard-scan {
+  0% { transform: translateY(0); opacity: 0; }
+  15% { opacity: 1; }
+  85% { opacity: 1; }
+  100% { transform: translateY(180px); opacity: 0; }
 }
 
 .hero-kicker, .hero-name, .hero-statement, .hero-focus,
@@ -897,7 +962,8 @@ html.js [data-reveal].is-visible { opacity: 1; transform: none; }
   body { background: #fff; color: #111; }
   body::before, body::after { display: none; }
   .site-header, .nav-toggle, .lang-toggle, .hero-cta,
-  .contact-actions, .footer-top, .caret, .status-dot { display: none !important; }
+  .contact-actions, .footer-top, .caret, .status-dot,
+  .vcard .btn { display: none !important; }
   [data-reveal] { opacity: 1 !important; transform: none !important; }
   .hero { min-height: auto; padding-block: 1rem; }
   .hero-grid { grid-template-columns: 1fr; }
