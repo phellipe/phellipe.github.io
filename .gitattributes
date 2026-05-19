@@ -4,3 +4,6 @@
 *.png   binary
 *.jpg   binary
 *.ico   binary
+
+# vCard files keep CRLF line endings (required by the vCard spec)
+*.vcf   -text
