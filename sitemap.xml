@@ -1,9 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://phellipe.eti.br/</loc>
-    <lastmod>2026-07-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://phellipe.eti.br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://phellipe.eti.br/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://phellipe.eti.br/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://phellipe.eti.br/en/"/>
+    <image:image>
+      <image:loc>https://phellipe.eti.br/assets/joao-phellipe-640.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://phellipe.eti.br/en/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://phellipe.eti.br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://phellipe.eti.br/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://phellipe.eti.br/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://phellipe.eti.br/en/"/>
+    <image:image>
+      <image:loc>https://phellipe.eti.br/assets/joao-phellipe-640.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://phellipe.eti.br/video/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://phellipe.eti.br/video/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://phellipe.eti.br/video/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://phellipe.eti.br/en/video/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://phellipe.eti.br/en/video/"/>
+    <video:video>
+      <video:thumbnail_loc>https://phellipe.eti.br/assets/video/poster-pt.jpg</video:thumbnail_loc>
+      <video:title>Conheça João Phellipe, engenheiro de software sênior</video:title>
+      <video:description>João Phellipe, engenheiro de software sênior, mostra 13 sistemas que criou, modernizou ou ajudou a construir para saúde, gestão, indústria, educação e setor público, além da carreira na TI da UFERSA, onde foi Superintendente de TIC de 2020 a 2024. O vídeo foi feito em código; vozes, trilha e avatar foram gerados com IA. Narração em português, com legendas e transcrição.</video:description>
+      <video:content_loc>https://phellipe.eti.br/assets/video/joao-phellipe-pt.mp4</video:content_loc>
+      <video:duration>99</video:duration>
+      <video:publication_date>2026-10-09T16:22:36-03:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://phellipe.eti.br/en/video/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://phellipe.eti.br/video/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://phellipe.eti.br/video/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://phellipe.eti.br/en/video/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://phellipe.eti.br/en/video/"/>
+    <video:video>
+      <video:thumbnail_loc>https://phellipe.eti.br/assets/video/poster-en.jpg</video:thumbnail_loc>
+      <video:title>Meet João Phellipe, senior software engineer</video:title>
+      <video:description>Senior software engineer João Phellipe shows 13 systems he built, modernized or helped build for health, business, industry, education and the public sector, plus his IT career at UFERSA, a Brazilian federal university, where he was Superintendent of ICT from 2020 to 2024. The film was built in code; voices, music and avatar were generated with AI. English narration, with captions and a transcript.</video:description>
+      <video:content_loc>https://phellipe.eti.br/assets/video/joao-phellipe-en.mp4</video:content_loc>
+      <video:duration>97</video:duration>
+      <video:publication_date>2026-10-09T16:22:36-03:00</video:publication_date>
+    </video:video>
   </url>
 </urlset>

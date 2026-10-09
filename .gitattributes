@@ -3,6 +3,9 @@
 *.woff2 binary
 *.png   binary
 *.jpg   binary
+*.avif  binary
+*.webp  binary
+*.mp4   binary
 *.ico   binary
 
 # vCard files keep CRLF line endings (required by the vCard spec)
