@@ -24,7 +24,7 @@ export const SITE = {
   // Datas em ISO 8601. `updated` vai para o <lastmod> do sitemap e para o
   // dateModified do JSON-LD: atualize quando o conteúdo principal mudar.
   created: { pt: '2026-05-18', en: '2026-10-09' },
-  updated: '2026-10-09',
+  updated: '2026-11-18',
   // Chave do IndexNow (Bing, Yandex, Seznam, Naver...). O build publica /<chave>.txt.
   indexNowKey: '259bd19e10d2ef81c4bec002e163d031',
   photo: { jpg: '/assets/joao-phellipe-640.jpg', width: 640, height: 640 },
@@ -39,7 +39,7 @@ export const PROFILES = {
   github: 'https://github.com/phellipe',
   lattes: 'http://lattes.cnpq.br/9597994805591709',
   linkedin: '', // ex.: 'https://www.linkedin.com/in/<usuario>/'
-  instagram: '', // ex.: 'https://www.instagram.com/<usuario>/'
+  instagram: 'https://www.instagram.com/joaophellipepinto/',
   youtube: '', // ex.: 'https://www.youtube.com/@<canal>'
   orcid: '', // ex.: 'https://orcid.org/0000-0000-0000-0000'
 };
@@ -788,7 +788,7 @@ export const CONTACT = {
     github: { label: 'GitHub', value: { pt: '@phellipe', en: '@phellipe' } },
     lattes: { label: 'Lattes', value: { pt: 'Currículo acadêmico', en: 'Academic CV (in Portuguese)' } },
     linkedin: { label: 'LinkedIn', value: { pt: 'Perfil profissional', en: 'Professional profile' } },
-    instagram: { label: 'Instagram', value: { pt: 'Perfil', en: 'Profile' } },
+    instagram: { label: 'Instagram', value: { pt: '@joaophellipepinto', en: '@joaophellipepinto' } },
     youtube: { label: 'YouTube', value: { pt: 'Canal', en: 'Channel' } },
     orcid: { label: 'ORCID', value: { pt: 'Registro de pesquisador', en: 'Researcher ID' } },
   },

@@ -5,7 +5,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://phellipe.eti.br/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://phellipe.eti.br/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://phellipe.eti.br/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://phellipe.eti.br/en/"/>
@@ -16,7 +16,7 @@
   </url>
   <url>
     <loc>https://phellipe.eti.br/en/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://phellipe.eti.br/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://phellipe.eti.br/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://phellipe.eti.br/en/"/>
@@ -27,7 +27,7 @@
   </url>
   <url>
     <loc>https://phellipe.eti.br/video/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://phellipe.eti.br/video/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://phellipe.eti.br/video/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://phellipe.eti.br/en/video/"/>
@@ -43,7 +43,7 @@
   </url>
   <url>
     <loc>https://phellipe.eti.br/en/video/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://phellipe.eti.br/video/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://phellipe.eti.br/video/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://phellipe.eti.br/en/video/"/>
